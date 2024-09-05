@@ -26,8 +26,10 @@ int main(void){
     for(int i=0; i<3; i++){
         printf("\nDigite a matricula do %dº aluno: ", i+1);
         scanf("%d", &java[i].mat);
+        
         printf("\nDigite a nota do %dº aluno: ", i+1);
         scanf("%f", &java[i].nota);
+        
         getchar();
         printf("\nDigite o nome do %dº aluno: ", i+1);
         gets(java[i].nome);
