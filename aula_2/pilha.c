@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 
+
 #define TAM 10
 
 typedef struct{
